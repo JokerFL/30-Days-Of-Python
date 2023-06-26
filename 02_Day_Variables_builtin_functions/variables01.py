@@ -158,17 +158,17 @@ def area_of_circle02(radius02):
 (2、在Python shell或文件中运行help('keywords')来检查Python保留字或关键字)
 """
 
-#1、Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-# first_name03 = input("请输入你的姓：");
-# last_name03 = input("请输入你的名：");
-# country03 = input("请输入你的国家：");
-# age03 = int(input("请输入你的年龄；"));
+# 1、Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+first_name03 = input("请输入你的姓：");
+last_name03 = input("请输入你的名：");
+country03 = input("请输入你的国家：");
+age03 = int(input("请输入你的年龄；"));
 
-# #输出
-# print("用户的姓为：",first_name03)
-# print("用户的名为：",last_name03)
-# print("用户的国家为：",country03)
-# print("用户的年龄为：",age03)
+#输出
+print("用户的姓为：",first_name03)
+print("用户的名为：",last_name03)
+print("用户的国家为：",country03)
+print("用户的年龄为：",age03)
 
 # 2、Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 """
