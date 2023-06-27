@@ -92,16 +92,16 @@
 # 练习一：Declare your age as integer variable(将你的年龄声明为整数变量)
 import datetime
 
-age = 10
+# age = 10
 
 # 练习二：Declare your height as a float variable（身高声明为浮点变量）
-hight = 120.9
+# hight = 120.9
 
 # 练习三：Declare a variable that store a complex number
 # 1、实部是3，虚部是4
-z = complex(3, 4)
+# z = complex(3, 4)
 # 2、Python会认为3是实部，4j是虚部，其中j表示虚数单位
-z = 3 + 4j
+# z = 3 + 4j
 
 # 练习四：Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
 # 练习四：编写一个脚本，提示用户输入三角形的底部和高度，并计算该三角形的面积（面积=0.5 x b x h）。
