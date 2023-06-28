@@ -97,7 +97,7 @@
 # print(last_letter)
 
 
-# #分割字符串
+# # #分割字符串
 # language = 'Python'
 # first_three = language[0:3]  #[0,3)
 # print(first_three)
@@ -298,12 +298,12 @@
 # print(challenge.swapcase())  # tHIRTY dAYS oF pYTHON
 
 
-# startswitch（）：检查字符串是否以指定字符串开头
-challenge = 'thirty days of python'
-print(challenge.startswith('thirty')) # True
-
-challenge = '30 days of python'
-print(challenge.startswith('thirty')) # False
+# # startswitch（）：检查字符串是否以指定字符串开头
+# challenge = 'thirty days of python'
+# print(challenge.startswith('thirty')) # True
+#
+# challenge = '30 days of python'
+# print(challenge.startswith('thirty')) # False
 
 
 
