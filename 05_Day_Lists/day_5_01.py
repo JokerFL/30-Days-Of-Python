@@ -116,7 +116,7 @@ Dictionary[字典]：是一个无序、可变（可修改）和索引的集合�
 """
 从列表中剪切项目
     正索引：我们可以通过指定开始、结束和步骤来指定一系列正索引，返回值将是一个新列表。
-    （start=0，end=len（lst）-1（最后一项），step=1的默认值）
+    (start=0,end=len(lst)-1(最后一项),step=1的默认值)
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # all_fruits = fruits[0:4] # it returns all the fruits
@@ -186,7 +186,7 @@ Dictionary[字典]：是一个无序、可变（可修改）和索引的集合�
 
 """
 将项目添加到列表
-要将项添加到现有列表的末尾，我们使用方法append（）。
+要将项添加到现有列表的末尾,我们使用方法append()。
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits.append('apple')
@@ -198,8 +198,8 @@ Dictionary[字典]：是一个无序、可变（可修改）和索引的集合�
 
 """
 将项目插入列表
-我们可以使用insert（）方法在列表中的指定索引处插入单个项。
-请注意，其他项目会向右移动。insert（）方法接受两个参数：index和要插入的项。
+我们可以使用insert()方法在列表中的指定索引处插入单个项。
+请注意,其他项目会向右移动。insert()方法接受两个参数:index和要插入的项。
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits.insert(2, 'apple') # insert apple between orange and mango
@@ -223,7 +223,7 @@ remove方法从列表中删除指定的项
 
 """
 使用Pop删除项目
-pop（）方法删除指定的索引（如果未指定索引，则删除最后一项）：
+pop()方法删除指定的索引（如果未指定索引，则删除最后一项）：
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits.pop()
@@ -236,7 +236,7 @@ pop（）方法删除指定的索引（如果未指定索引，则删除最后�
 
 """
 使用Del删除项目
-del关键字删除指定的索引，还可以用于删除索引范围内的项。它还可以完全删除列表
+del关键字删除指定的索引,还可以用于删除索引范围内的项。它还可以完全删除列表
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
 # del fruits[0]
@@ -254,7 +254,7 @@ del关键字删除指定的索引，还可以用于删除索引范围内的项�
 
 """
 清除列表项目
-clear（）方法清空列表：
+clear()方法清空列表：
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # fruits.clear()
@@ -280,9 +280,9 @@ clear（）方法清空列表：
 
 """
 加入列表
-在Python中，有几种方法可以连接或连接两个或多个列表。
-1、加号运算符（+）
-2、使用extend（）方法联接extend（（）方法允许在列表中附加列表。
+在Python中,有几种方法可以连接或连接两个或多个列表。
+1、加号运算符(+)
+2、使用extend()方法联接extend()方法允许在列表中附加列表。
 """
 
 # #1、加号运算符（+）
@@ -323,7 +323,7 @@ clear（）方法清空列表：
 
 """
 计数列表中的项目
-count（）方法返回一个项目在列表中出现的次数：
+count()方法返回一个项目在列表中出现的次数：
 """
 # fruits = ['banana', 'orange', 'mango', 'lemon']
 # print(fruits.count('orange'))   # 1

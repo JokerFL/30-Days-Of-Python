@@ -286,7 +286,7 @@
 
 
 # # title（）：返回带标题大小写的字符串
-# # 每个代词首字母大写
+# # 每个单词首字母大写
 # challenge = 'thirty days of python code'
 # print(challenge.title()) # Thirty Days Of Python
 
